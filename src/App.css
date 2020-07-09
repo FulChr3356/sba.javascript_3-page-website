@@ -36,3 +36,13 @@ button{
   width: 200px;
 }
 
+#reviewText{
+  top: 0;
+  width: 700px;
+  height: 300px;
+  border-color: #00DDFF;
+  border-radius: 20px;
+  top: 50%;
+  border-width: 5px;
+}
+
