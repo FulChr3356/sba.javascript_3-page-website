@@ -1,4 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
+<img src = "https://i.postimg.cc/cLcpTTB3/Screenshot-from-2020-07-10-14-24-51.png"  width ="33%"/>
+<img src = "https://i.postimg.cc/FKs26cTB/Screenshot-from-2020-07-10-14-25-06.png" width ="33%"/>
+<img src = "https://i.postimg.cc/XJtmXP4R/Screenshot-from-2020-07-10-14-25-18.png" width ="33%"/>
+
+
 
 ## Available Scripts
 
