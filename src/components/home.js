@@ -17,6 +17,8 @@ export default class Home extends Component {
                     <Link className="nav-link" to={"/myReviews"}>
                         <button > My Reviews</button>
                     </Link>
+                    <br></br>
+                    <input placeholder= "Search for movie" />
                 </div>
                 <div >
                     <div className="split left" >
