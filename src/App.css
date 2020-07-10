@@ -27,17 +27,19 @@ li{
   
 }
 button{
+  
   background-color: #2196f3;
-  left: 0;
+  
   color: white;
   border: none;
   border-radius: 10px;
-  height: 50px;
-  width: 200px;
+  height: 40px;
+  width: 120px;
+
 }
 
 #reviewText{
-  top: 0;
+  
   width: 700px;
   height: 300px;
   border-color: #00DDFF;
@@ -45,4 +47,29 @@ button{
   top: 50%;
   border-width: 5px;
 }
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 20px;
+  overflow-x: hidden;
+  padding-top: 80px;
+}
+
+.left {
+  left: 0;
+}
+.right{
+  right:0;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 

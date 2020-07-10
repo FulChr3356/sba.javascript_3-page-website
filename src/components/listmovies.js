@@ -42,8 +42,9 @@ export default class ListMovies extends React.Component {
                         Chris Hemsworth
                         </p>
                         <p> Directed by : 	Anthony Russo Joe Russo</p>
-                        <button onClick = {() => movies[0].setReview()}>Write Review</button>
-
+                        <Link className="nav-link" to={"/myReviews"}>
+                        <button >  Write Review</button>
+                    </Link>
                     </div>
                     <li style={{ left: 50 + '%', textAlign: "center" }}>
 
@@ -56,7 +57,10 @@ export default class ListMovies extends React.Component {
                         Joseph Gordon-Levitt
                         </p>
                         <p> Directed by : 	Anthony Russo Joe Russo</p>
-                        <button onClick = {() => movies[1].setReview()} >Write Review</button>
+                        <Link className="nav-link" to={"/myReviews"}>
+                        <button >  Write Review</button>
+                        </Link>
+                        
 
                     </li>
                     <li style={{ left: 50 + '%', textAlign: "center" }}>
@@ -69,7 +73,9 @@ export default class ListMovies extends React.Component {
                         Jeremy Renner
                         Forest Whitaker</p>
                         <p> Directed by : 		Denis Villeneuve</p>
-                        <button onClick = {() => movies[2].setReview()}>Write Review</button>
+                        <Link className="nav-link" to={"/myReviews"}>
+                        <button >  Write Review</button>
+                    </Link>
 
                     </li>
                     <li style={{ left: 50 + '%', textAlign: "center" }}>
@@ -82,8 +88,9 @@ export default class ListMovies extends React.Component {
                         Michael Caine
                         Heath Ledger</p>
                         <p> Directed by: Christopher Nolan</p>
-                        <button onClick = {() => movies[3].setReview()}>Write Review</button>
-
+                        <Link className="nav-link" to={"/myReviews"}>
+                        <button >  Write Review</button>
+                    </Link>
                     </li>
                     <li style={{ left: 50 + '%', textAlign: "center" }}>
 
@@ -94,8 +101,9 @@ export default class ListMovies extends React.Component {
                         Joaquin Phoenix
                         Amy Adams</p>
                         <p> Directed by : Spike Jonze</p>
-                        <button onClick = {() => movies[4].setReview()}>Write Review</button>
-
+                        <Link className="nav-link" to={"/myReviews"}>
+                        <button > Write Review</button>
+                    </Link>
                     </li>
 
 
